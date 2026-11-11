@@ -1,0 +1,26 @@
+﻿||||3||||||2|||4|||4|||4
+||||5||||||6|||3|||3|||3
+mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun
+10-giu|11-giu|12-giu|13-giu|14-giu|15-giu|16-giu|17-giu|18-giu|19-giu|20-giu|21-giu|22-giu|23-giu|24-giu|25-giu|26-giu|27-giu|28-giu|29-giu
+118 €|121 €|129 €|128 €|118 €|106,17 €|106,17 €|106,17 €|106,17 €|106,17 €|106,17 €|131 €|130 €|129 €|128 €|128 €|135 €|122 €|114 €|113 €
+|||||||||||||||||||
+|||||||||||||||||||
+||||=SUM(OFFSET(FN5, 0, -FN2+1,1,FN2))||||||=SUM(OFFSET(FT5, 0, -FT2+1,1,FT2))|||=SUM(OFFSET(FW5, 0, -FW2+1,1,FW2))|||=SUM(OFFSET(FZ5, 0, -FZ2+1,1,FZ2))|||=SUM(OFFSET(GC5, 0, -GC2+1,1,GC2))
+||||Airbnb||||||Airbnb|||Airbnb|||Airbnb|||Airbnb
+||||Dennis Myers||||||Daniela Basile|||Diego Fregossi Perrone|||Renaud St-Jean|||Marta Raya
+||||30/01/2026||||||28/03/2026|||13/02/2026|||08/02/2026|||30/01/2026
+||||50 €||||||50 €|||50 €|||50 €|||50 €
+||||101,32 €||||||128,26 €|||88,04 €|||67,29 €|||68,16 €
+||||=FN13/SUM(FN8,FN12)||||||=FT13/SUM(FT8,FT12)|||=FW13/SUM(FW8,FW12)|||=FZ13/SUM(FZ8,FZ12)|||=GC13/SUM(GC8,GC12)
+||||=6*3*5||||||=6*2*6|||=6*4*3|||=6*4*3|||=6*4*3
+||||=SUM(FN8,FN12,FN13,FN15,FN7)||||||=SUM(FT8,FT12,FT13,FT15,FT7)|||=SUM(FW8,FW12,FW13,FW15,FW7)|||=SUM(FZ8,FZ12,FZ13,FZ15,FZ7)|||=SUM(GC8,GC12,GC13,GC15,GC7)
+||||=3%*1,22||||||=3%*1,22|||=3%*1,22|||=3%*1,22|||=3%*1,22
+||||=-SUM(FN8,FN7,FN12)*FN17||||||=-SUM(FT8,FT7,FT12)*FT17|||=-SUM(FW8,FW7,FW12)*FW17|||=-SUM(FZ8,FZ7,FZ12)*FZ17|||=-SUM(GC8,GC7,GC12)*GC17
+||||=SUM(FN8,FN12,FN18,FN7)||||||=SUM(FT8,FT12,FT18,FT7)|||=SUM(FW8,FW12,FW18,FW7)|||=SUM(FZ8,FZ12,FZ18,FZ7)|||=SUM(GC8,GC12,GC18,GC7)
+|||||||||||||||||||
+||||21%||||||21%|||21%|||21%|||21%
+||||=-FN21*FN19||||||=-FT21*FT19|||=-FW21*FW19|||=-FZ21*FZ19|||=-GC21*GC19
+|||||||||||||||||||
+||||=SUM(FN19,FN22)||||||=SUM(FT19,FT22)|||=SUM(FW19,FW22)|||=SUM(FZ19,FZ22)|||=SUM(GC19,GC22)
+||||=FN24-FN12||||||=FT24-FT12|||=FW24-FW12|||=FZ24-FZ12|||=GC24-GC12
+||||=FN25/FN16||||||=FT25/FT16|||=FW25/FW16|||=FZ25/FZ16|||=GC25/GC16

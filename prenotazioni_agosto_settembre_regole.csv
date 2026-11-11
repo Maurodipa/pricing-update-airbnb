@@ -1,0 +1,26 @@
+﻿||3|||2||||4||||4|||||4|4||||4||||3|||3
+||3|||3||||4||||4|||||4|1||||4||||3|||2
+dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar
+2-ago|3-ago|4-ago|5-ago|6-ago|7-ago|8-ago|9-ago|10-ago|11-ago|12-ago|13-ago|14-ago|15-ago|16-ago|17-ago|18-ago|19-ago|20-ago|21-ago|22-ago|23-ago|24-ago|25-ago|26-ago|27-ago|28-ago|29-ago|30-ago|31-ago|1-set
+80 €|80 €|80 €|50 €|50 €|50 €|89,75 €|89,75 €|89,75 €|89,75 €|91 €|92 €|98 €|98 €||89 €|90 €|88 €|88 €|48,96 €|81 €|78 €|78 €|79 €||87 €|91 €|93 €||91 €|105 €
+||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||
+||=SUM(OFFSET(HM5, 0, -HM2+1,1,HM2))|||=SUM(OFFSET(HP5, 0, -HP2+1,1,HP2))||||=SUM(OFFSET(HT5, 0, -HT2+1,1,HT2))||||=SUM(OFFSET(HX5, 0, -HX2+1,1,HX2))|||||=SUM(OFFSET(IC5, 0, -IC2+1,1,IC2))|=SUM(OFFSET(ID5, 0, -ID2+1,1,ID2))||||=SUM(OFFSET(IH5, 0, -IH2+1,1,IH2))||||=SUM(OFFSET(IL5, 0, -IL2+1,1,IL2))|||=SUM(OFFSET(IO5, 0, -IO2+1,1,IO2))
+||Airbnb|||Airbnb||||Airbnb||||Airbnb|||||Airbnb|Airbnb||||Airbnb||||Airbnb|||Airbnb
+||Michael Romero|||Y Unting C Ai||||Mmaauudd Ddoorriizzoonn||||Graziela Azevedo|||||Stéphanie Vaculik|Juris Rozenbergs||||Jackson Reis||||Gerard Maronski|||Addie Lowe
+||21/07/2026|||04/08/2026||||06/03/2026||||10/03/2026|||||23/02/2026|21/08/2026||||18/06/2026||||04/03/2026|||19/03/2026
+||50 €|||59 €||||50 €||||50 €|||||50 €|59 €||||50 €||||50 €|||50 €
+||44,25 €|||0,00 €||||69,29 €||||70,35 €|||||68,62 €|0,00 €||||68,32 €||||48,98 €|||43,17 €
+||=HM13/SUM(HM8,HM12)|||=HP13/SUM(HP8,HP12)||||=HT13/SUM(HT8,HT12)||||=HX13/SUM(HX8,HX12)|||||=IC13/SUM(IC8,IC12)|=ID13/SUM(ID8,ID12)||||=IH13/SUM(IH8,IH12)||||=IL13/SUM(IL8,IL12)|||=IO13/SUM(IO8,IO12)
+||=6*3*3|||=6*2*3||||=6*4*4||||=6*4*4|||||=6*4*4|=6*4*1||||=6*4*4||||=6*3*3|||=6*3*2
+||=SUM(HM8,HM12,HM13,HM15,HM7)|||=SUM(HP8,HP12,HP13,HP15,HP7)||||=SUM(HT8,HT12,HT13,HT15,HT7)||||=SUM(HX8,HX12,HX13,HX15,HX7)|||||=SUM(IC8,IC12,IC13,IC15,IC7)|=SUM(ID8,ID12,ID13,ID15,ID7)||||=SUM(IH8,IH12,IH13,IH15,IH7)||||=SUM(IL8,IL12,IL13,IL15,IL7)|||=SUM(IO8,IO12,IO13,IO15,IO7)
+||=3%*1,22|||=3%*1,22||||=3%*1,22||||=3%*1,22|||||=3%*1,22|=3%*1,22||||=3%*1,22||||=3%*1,22|||=3%*1,22
+||=-SUM(HM8,HM7,HM12)*HM17|||=-SUM(HP8,HP7,HP12)*HP17||||=-SUM(HT8,HT7,HT12)*HT17||||=-SUM(HX8,HX7,HX12)*HX17|||||=-SUM(IC8,IC7,IC12)*IC17|=-SUM(ID8,ID7,ID12)*ID17||||=-SUM(IH8,IH7,IH12)*IH17||||=-SUM(IL8,IL7,IL12)*IL17|||=-SUM(IO8,IO7,IO12)*IO17
+||=SUM(HM8,HM12,HM18,HM7)|||=SUM(HP8,HP12,HP18,HP7)||||=SUM(HT8,HT12,HT18,HT7)||||=SUM(HX8,HX12,HX18,HX7)|||||=SUM(IC8,IC12,IC18,IC7)|=SUM(ID8,ID12,ID18,ID7)||||=SUM(IH8,IH12,IH18,IH7)||||=SUM(IL8,IL12,IL18,IL7)|||=SUM(IO8,IO12,IO18,IO7)
+||||||||||||||||||||||||||||||
+||21%|||21%||||21%||||21%|||||21%|21%||||21%||||21%|||21%
+||=-HM21*HM19|||=-HP21*HP19||||=-HT21*HT19||||=-HX21*HX19|||||=-IC21*IC19|=-ID21*ID19||||=-IH21*IH19||||=-IL21*IL19|||=-IO21*IO19
+||||||||||||||||||||||||||||||
+||=SUM(HM19,HM22)|||=SUM(HP19,HP22)||||=SUM(HT19,HT22)||||=SUM(HX19,HX22)|||||=SUM(IC19,IC22)|=SUM(ID19,ID22)||||=SUM(IH19,IH22)||||=SUM(IL19,IL22)|||=SUM(IO19,IO22)
+||=HM24-HM12|||=HP24-HP12||||=HT24-HT12||||=HX24-HX12|||||=IC24-IC12|=ID24-ID12||||=IH24-IH12||||=IL24-IL12|||=IO24-IO12
+||=HM25/HM16|||=HP25/HP16||||=HT25/HT16||||=HX25/HX16|||||=IC25/IC16|=ID25/ID16||||=IH25/IH16||||=IL25/IL16|||=IO25/IO16

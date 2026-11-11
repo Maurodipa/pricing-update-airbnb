@@ -117,8 +117,35 @@ def update_single_date(page, dt: datetime, price: float) -> None:
     iso_date = format_date_iso(dt)
 
     # -------------------------------------------------------------------------
-    # Step 1: clicca sul giorno nel calendario
+    # Step 0: chiudi il pannello di selezione multipla se è aperto
+    # Se il calendario è in modalità multi-selezione (URL contiene /edit-selected-dates),
+    # cliccare su un giorno aggiungerebbe quella data alla selezione esistente anziché
+    # aprire il pannello di modifica singola. Si chiude navigando al calendario base.
+    # IMPORTANTE: questo step deve avvenire PRIMA di cercare il day_element nel DOM,
+    # perché la navigazione invaliderebbe l'ElementHandle.
+    # -------------------------------------------------------------------------
+    current_url = page.url
+    if "edit-selected-dates" in current_url:
+        print(f"      ↩  Pannello multi-selezione aperto — chiusura in corso...")
+        base_url = current_url.split("/edit-selected-dates")[0] + "/pricing-and-availability"
+        page.goto(base_url, wait_until="domcontentloaded", timeout=30_000)
+        page.wait_for_timeout(1_500)
+    else:
+        # Prova a chiudere il pannello laterale se è già aperto (bottone X)
+        try:
+            for label in ["Close", "Cerrar", "Chiudi", "cerrar"]:
+                close_btn = page.query_selector(f'button[aria-label*="{label}"]')
+                if close_btn and close_btn.is_visible():
+                    close_btn.click()
+                    page.wait_for_timeout(600)
+                    break
+        except Exception:
+            pass
+
+    # -------------------------------------------------------------------------
+    # Step 1: trova e clicca il giorno nel calendario
     # Dal DOM reale: i bottoni giorno hanno id="date-YYYY-MM-DD" e data-date="YYYY-MM-DD"
+    # (questo step viene DOPO Step 0 per evitare ElementHandle stale dopo navigazione)
     # -------------------------------------------------------------------------
     day_selectors = [
         f'button[data-date="{iso_date}"]',   # ✅ Confermato dal DOM reale
@@ -142,7 +169,7 @@ def update_single_date(page, dt: datetime, price: float) -> None:
             f"Il giorno potrebbe non essere visibile: scrolla il calendario verso {iso_date}."
         )
 
-    # Scrolla il giorno nella viewport prima di cliccare
+    # Scrolla il giorno nella viewport e clicca
     day_element.scroll_into_view_if_needed()
     page.wait_for_timeout(500)
     day_element.click()

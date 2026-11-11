@@ -1,0 +1,26 @@
+﻿||2||4
+||3||2
+ven|sab|dom|lun|mar
+5-giu|6-giu|7-giu|8-giu|9-giu
+109 €|118 €|103 €|100 €|101 €
+||||
+||||
+||=SUM(OFFSET(FG5, 0, -FG2+1,1,FG2))||=SUM(OFFSET(FI5, 0, -FI2+1,1,FI2))
+||Airbnb||Airbnb
+||Nicolas Uliana||Eduardo Jimenez
+||27/03/2026||05/04/2026
+||50 €||50 €
+||57,99 €||47,76 €
+||=FG13/SUM(FG8,FG12)||=FI13/SUM(FI8,FI12)
+||=6*2*3||=6*4*2
+||=SUM(FG8,FG12,FG13,FG15,FG7)||=SUM(FI8,FI12,FI13,FI15,FI7)
+||=3%*1,22||=3%*1,22
+||=-SUM(FG8,FG7,FG12)*FG17||=-SUM(FI8,FI7,FI12)*FI17
+||=SUM(FG8,FG12,FG18,FG7)||=SUM(FI8,FI12,FI18,FI7)
+||||
+||21%||21%
+||=-FG21*FG19||=-FI21*FI19
+||||
+||=SUM(FG19,FG22)||=SUM(FI19,FI22)
+||=FG24-FG12||=FI24-FI12
+||=FG25/FG16||=FI25/FI16

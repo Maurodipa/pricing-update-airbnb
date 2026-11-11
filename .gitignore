@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+*/.venv/
+.venv*/
+
+# Environment variables & credentials
+.env
+*.env
+*/.env
+
+# Large archives and backups (>100MB rejected by GitHub)
+*.zip
+*.tar.gz
+*.rar
+mr-airbnb_backup_Kaggle Capstone.zip
+
+# Nested repository (tracked separately at https://github.com/Maurodipa/mr-airbnb.git)
+mr-airbnb/
+
+# Large Data Lake raw JSON databases (>100MB)
+*.bak*
+*.tmp
+
+# Python & tool caches
+__pycache__/
+*/__pycache__/
+*.pyc
+.ruff_cache/
+*/.ruff_cache/
+.pytest_cache/
+node_modules/
+*/node_modules/

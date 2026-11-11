@@ -1,0 +1,26 @@
+||2|2|4|||3|4|||||||2||4|3|3||2|||||3|||3
+||3|1|1|||3|1|||||||7||2|1|1||2|||||5|||3
+mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio
+2-set|3-set|4-set|5-set|6-set|7-set|8-set|9-set|10-set|11-set|12-set|13-set|14-set|15-set|16-set|17-set|18-set|19-set|20-set|21-set|22-set|23-set|24-set|25-set|26-set|27-set|28-set|29-set|30-set|1-ott
+108 €|108 €|109 €|117 €|59 €|115 €|115 €|115 €|59 €|156 €|156 €|156 €|156 €|157 €|157 €|157 €|127 €|127 €|79 €|125 €|150 €|150 €|122 €|122 €|122 €|123 €|123 €|150 €|150 €|150 €
+|||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||
+||=SUM(OFFSET(IR5, 0, -IR2+1, 1, IR2))|=SUM(OFFSET(IS5, 0, -IS2+1, 1, IS2))|=SUM(OFFSET(IT5, 0, -IT2+1, 1, IT2))|||=SUM(OFFSET(IW5, 0, -IW2+1, 1, IW2))|=SUM(OFFSET(IX5, 0, -IX2+1, 1, IX2))|||||||=SUM(OFFSET(JE5, 0, -JE2+1, 1, JE2))||=SUM(OFFSET(JG5, 0, -JG2+1, 1, JG2))|=SUM(OFFSET(JH5, 0, -JH2+1, 1, JH2))|=SUM(OFFSET(JI5, 0, -JI2+1, 1, JI2))||=SUM(OFFSET(JK5, 0, -JK2+1, 1, JK2))|||||=SUM(OFFSET(JP5, 0, -JP2+1, 1, JP2))|||=SUM(OFFSET(JS5, 0, -JS2+1, 1, JS2))
+||Airbnb|Airbnb|Airbnb|||Airbnb|Airbnb|||||||Airbnb||Airbnb|Airbnb|Airbnb||Airbnb|||||Airbnb|||Airbnb
+||Elise Parisse|Eleonora Frigo|Kathe Bowe|||Barbara Escalona|Nicola Alocci|||||||Sharon Hawkins||Sakari Nordman|Hannah Lainez|Mical Yibrah||Parimal Shrestha|||||Alexandra Hatzis|||Blanca Aguirre
+||20/03/2026|18/08/2026|06/09/2026|||17/08/2026|09/09/2026|||||||22/07/2026||04/04/2026|19/09/2026|31/08/2026||17/08/2026|||||02/04/2026|||17/08/2026
+||50 €|59 €|59 €|||59 €|59 €|||||||50 €||50 €|59 €|59 €||59 €|||||50 €|||59 €
+||13,73 €|33,28 €|22,31 €|||76,40 €|22,31 €|||||||41,90 €||11,13 €|26,10 €|34,79 €||67,89 €|||||24,23 €|||96,26 €
+||=IR13/SUM(IR8,IR12)|=IS13/SUM(IS8,IS12)|=IT13/SUM(IT8,IT12)|||=IW13/SUM(IW8,IW12)|=IX13/SUM(IX8,IX12)|||||||=JE13/SUM(JE8,JE12)||=JG13/SUM(JG8,JG12)|=JH13/SUM(JH8,JH12)|=JI13/SUM(JI8,JI12)||=JK13/SUM(JK8,JK12)|||||=JP13/SUM(JP8,JP12)|||=JS13/SUM(JS8,JS12)
+||=6*2*3|=6*2*1|=6*4*1|||=6*3*3|=6*4*1|||||||=6*2*7||=6*4*2|=6*3*1|=6*3*1||=6*2*2|||||=6*3*5|||=6*3*3
+||=SUM(IR8,IR12,IR13,IR15,IR7)|=SUM(IS8,IS12,IS13,IS15,IS7)|=SUM(IT8,IT12,IT13,IT15,IT7)|||=SUM(IW8,IW12,IW13,IW15,IW7)|=SUM(IX8,IX12,IX13,IX15,IX7)|||||||=SUM(JE8,JE12,JE13,JE15,JE7)||=SUM(JG8,JG12,JG13,JG15,JG7)|=SUM(JH8,JH12,JH13,JH15,JH7)|=SUM(JI8,JI12,JI13,JI15,JI7)||=SUM(JK8,JK12,JK13,JK15,JK7)|||||=SUM(JP8,JP12,JP13,JP15,JP7)|||=SUM(JS8,JS12,JS13,JS15,JS7)
+||=3%*1,22|=3%*1,22|=3%*1,22|||=3%*1,22|=3%*1,22|||||||=3%*1,22||=3%*1,22|=3%*1,22|=3%*1,22||=3%*1,22|||||=3%*1,22|||=3%*1,22
+||=-SUM(IR8,IR7,IR12)*IR17|=-SUM(IS8,IS7,IS12)*IS17|=-SUM(IT8,IT7,IT12)*IT17|||=-SUM(IW8,IW7,IW12)*IW17|=-SUM(IX8,IX7,IX12)*IX17|||||||=-SUM(JE8,JE7,JE12)*JE17||=-SUM(JG8,JG7,JG12)*JG17|=-SUM(JH8,JH7,JH12)*JH17|=-SUM(JI8,JI7,JI12)*JI17||=-SUM(JK8,JK7,JK12)*JK17|||||=-SUM(JP8,JP7,JP12)*JP17|||=-SUM(JS8,JS7,JS12)*JS17
+||=SUM(IR8,IR12,IR18,IR7)|=SUM(IS8,IS12,IS18,IS7)|=SUM(IT8,IT12,IT18,IT7)|||=SUM(IW8,IW12,IW18,IW7)|=SUM(IX8,IX12,IX18,IX7)|||||||=SUM(JE8,JE12,JE18,JE7)||=SUM(JG8,JG12,JG18,JG7)|=SUM(JH8,JH12,JH18,JH7)|=SUM(JI8,JI12,JI18,JI7)||=SUM(JK8,JK12,JK18,JK7)|||||=SUM(JP8,JP12,JP18,JP7)|||=SUM(JS8,JS12,JS18,JS7)
+|||||||||||||||||||||||||||||
+||21%|21%|21%|||21%|21%|||||||21%||21%|21%|21%||21%|||||21%|||21%
+||=-IR21*IR19|=-IS21*IS19|=-IT21*IT19|||=-IW21*IW19|=-IX21*IX19|||||||=-JE21*JE19||=-JG21*JG19|=-JH21*JH19|=-JI21*JI19||=-JK21*JK19|||||=-JP21*JP19|||=-JS21*JS19
+|||||||||||||||||||||||||||||
+||=SUM(IR19,IR22)|=SUM(IS19,IS22)|=SUM(IT19,IT22)|||=SUM(IW19,IW22)|=SUM(IX19,IX22)|||||||=SUM(JE19,JE22)||=SUM(JG19,JG22)|=SUM(JH19,JH22)|=SUM(JI19,JI22)||=SUM(JK19,JK22)|||||=SUM(JP19,JP22)|||=SUM(JS19,JS22)
+||=IR24-IR12|=IS24-IS12|=IT24-IT12|||=IW24-IW12|=IX24-IX12|||||||=JE24-JE12||=JG24-JG12|=JH24-JH12|=JI24-JI12||=JK24-JK12|||||=JP24-JP12|||=JS24-JS12
+||=IR25/IR16|=IS25/IS16|=IT25/IT16|||=IW25/IW16|=IX25/IX16|||||||=JE25/JE16||=JG25/JG16|=JH25/JH16|=JI25/JI16||=JK25/JK16|||||=JP25/JP16|||=JS25/JS16

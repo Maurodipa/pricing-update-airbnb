@@ -1,0 +1,214 @@
+{
+  "dates": [
+    {
+      "date": "2026-06-21",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-22",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-23",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-24",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-25",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-26",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-06-27",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-06-28",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-29",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-06-30",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-01",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-02",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-03",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-04",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-05",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-06",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-07",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-08",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-09",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-10",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-11",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-12",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-13",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-14",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-15",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-16",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-17",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-18",
+      "base_price": 180,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 236
+    },
+    {
+      "date": "2026-07-19",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    },
+    {
+      "date": "2026-07-20",
+      "base_price": 150,
+      "cleaning_fee": 50,
+      "tourist_tax": 6,
+      "total": 206
+    }
+  ]
+}

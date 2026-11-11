@@ -1,0 +1,26 @@
+﻿||3|||3||4|||||4|||4|||3|||3||4||||4|4||3||4
+||3|||3||2|||||5|||3|||3|||3||2||||3|1||2||2
+mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio|ven|sab|dom|lun|mar|mer|gio||sab|dom|lun|mar|mer|gio|ven|sab
+30-giu|1-lug|2-lug|3-lug|4-lug|5-lug|6-lug|7-lug|8-lug|9-lug|10-lug|11-lug|12-lug|13-lug|14-lug|15-lug|16-lug|17-lug|18-lug|19-lug|20-lug|21-lug|22-lug|23-lug||25-lug|26-lug|27-lug|28-lug|29-lug|30-lug|31-lug|1-ago
+61,20 €|61,20 €|61,20 €|117 €|119 €|109 €|100 €|100 €|119 €|119 €|119 €|119 €|119 €|91 €|91 €|90 €|106 €|111 €|113 €|105 €|103 €|103 €|130 €|130 €||118 €|112 €|111 €|59 €|111 €|112 €|106 €|100 €
+||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||
+||=SUM(OFFSET(FF5, 0, -FF2+1,1,FF2))|||=SUM(OFFSET(FI5, 0, -FI2+1,1,FI2))||=SUM(OFFSET(FK5, 0, -FK2+1,1,FK2))|||||=SUM(OFFSET(FP5, 0, -FP2+1,1,FP2))|||=SUM(OFFSET(FS5, 0, -FS2+1,1,FS2))|||=SUM(OFFSET(FV5, 0, -FV2+1,1,FV2))|||=SUM(OFFSET(FY5, 0, -FY2+1,1,FY2))||=SUM(OFFSET(GA5, 0, -GA2+1,1,GA2))||||=SUM(OFFSET(GE5, 0, -GE2+1,1,GE2))|=SUM(OFFSET(GF5, 0, -GF2+1,1,GF2))||=SUM(OFFSET(GH5, 0, -GH2+1,1,GH2))||=SUM(OFFSET(GJ5, 0, -GJ2+1,1,GJ2))
+||Airbnb|||Airbnb||Airbnb|||||Airbnb|||Airbnb|||Airbnb|||Airbnb||Airbnb||||Airbnb|Airbnb||Airbnb||Airbnb
+||Juan Gonzalez|||Béatrice Dieudonne||Jorge Calvo|||||Roberto Pedrouzo|||Adrian Zakrzewski|||Joe Kouri|||Allan Coimbra Santana||Erica Martinez||||Jacobo Perez|Ismael Pichardo||Carsten Tappe||Cel In
+||29/06/2026|||21/02/2026||29/05/2026|||||18/02/2026|||31/03/2026|||04/05/2026|||22/02/2026||20/04/2026||||01/03/2026|28/07/2026||01/03/2026||21/02/2026
+||50 €|||50 €||50 €|||||50 €|||50 €|||50 €|||50 €||50 €||||50 €|59 €||50 €||50 €
+||35,65 €|||66,91 €||43,10 €|||||110,18 €|||60,43 €|||57,99 €|||59,20 €||47,30 €||||66,79 €|0,00 €||45,86 €||43,37 €
+||=FF13/SUM(FF8,FF12)|||=FI13/SUM(FI8,FI12)||=FK13/SUM(FK8,FK12)|||||=FP13/SUM(FP8,FP12)|||=FS13/SUM(FS8,FS12)|||=FV13/SUM(FV8,FV12)|||=FY13/SUM(FY8,FY12)||=GA13/SUM(GA8,GA12)||||=GE13/SUM(GE8,GE12)|=GF13/SUM(GF8,GF12)||=GH13/SUM(GH8,GH12)||=GJ13/SUM(GJ8,GJ12)
+||=6*3*3|||=6*3*3||=6*4*2|||||=6*4*5|||=6*4*3|||=6*3*3|||=6*3*3||=6*4*2||||=6*4*3|=6*4*1||=6*3*2||=6*4*2
+||=SUM(FF8,FF12,FF13,FF15,FF7)|||=SUM(FI8,FI12,FI13,FI15,FI7)||=SUM(FK8,FK12,FK13,FK15,FK7)|||||=SUM(FP8,FP12,FP13,FP15,FP7)|||=SUM(FS8,FS12,FS13,FS15,FS7)|||=SUM(FV8,FV12,FV13,FV15,FV7)|||=SUM(FY8,FY12,FY13,FY15,FY7)||=SUM(GA8,GA12,GA13,GA15,GA7)||||=SUM(GE8,GE12,GE13,GE15,GE7)|=SUM(GF8,GF12,GF13,GF15,GF7)||=SUM(GH8,GH12,GH13,GH15,GH7)||=SUM(GJ8,GJ12,GJ13,GJ15,GJ7)
+||=3%*1,22|||=3%*1,22||=3%*1,22|||||=3%*1,22|||=3%*1,22|||=3%*1,22|||=3%*1,22||=3%*1,22||||=3%*1,22|=3%*1,22||=3%*1,22||=3%*1,22
+||=-SUM(FF8,FF7,FF12)*FF17|||=-SUM(FI8,FI7,FI12)*FI17||=-SUM(FK8,FK7,FK12)*FK17|||||=-SUM(FP8,FP7,FP12)*FP17|||=-SUM(FS8,FS7,FS12)*FS17|||=-SUM(FV8,FV7,FV12)*FV17|||=-SUM(FY8,FY7,FY12)*FY17||=-SUM(GA8,GA7,GA12)*GA17||||=-SUM(GE8,GE7,GE12)*GE17|=-SUM(GF8,GF7,GF12)*GF17||=-SUM(GH8,GH7,GH12)*GH17||=-SUM(GJ8,GJ7,GJ12)*GJ17
+||=SUM(FF8,FF12,FF18,FF7)|||=SUM(FI8,FI12,FI18,FI7)||=SUM(FK8,FK12,FK18,FK7)|||||=SUM(FP8,FP12,FP18,FP7)|||=SUM(FS8,FS12,FS18,FS7)|||=SUM(FV8,FV12,FV18,FV7)|||=SUM(FY8,FY12,FY18,FY7)||=SUM(GA8,GA12,GA18,GA7)||||=SUM(GE8,GE12,GE18,GE7)|=SUM(GF8,GF12,GF18,GF7)||=SUM(GH8,GH12,GH18,GH7)||=SUM(GJ8,GJ12,GJ18,GJ7)
+||||||||||||||||||||||||||||||||
+||21%|||21%||21%|||||21%|||21%|||21%|||21%||21%||||21%|21%||21%||21%
+||=-FF21*FF19|||=-FI21*FI19||=-FK21*FK19|||||=-FP21*FP19|||=-FS21*FS19|||=-FV21*FV19|||=-FY21*FY19||=-GA21*GA19||||=-GE21*GE19|=-GF21*GF19||=-GH21*GH19||=-GJ21*GJ19
+||||||||||||||||||||||||||||||||
+||=SUM(FF19,FF22)|||=SUM(FI19,FI22)||=SUM(FK19,FK22)|||||=SUM(FP19,FP22)|||=SUM(FS19,FS22)|||=SUM(FV19,FV22)|||=SUM(FY19,FY22)||=SUM(GA19,GA22)||||=SUM(GE19,GE22)|=SUM(GF19,GF22)||=SUM(GH19,GH22)||=SUM(GJ19,GJ22)
+||=FF24-FF12|||=FI24-FI12||=FK24-FK12|||||=FP24-FP12|||=FS24-FS12|||=FV24-FV12|||=FY24-FY12||=GA24-GA12||||=GE24-GE12|=GF24-GF12||=GH24-GH12||=GJ24-GJ12
+||=FF25/FF16|||=FI25/FI16||=FK25/FK16|||||=FP25/FP16|||=FS25/FS16|||=FV25/FV16|||=FY25/FY16||=GA25/GA16||||=GE25/GE16|=GF25/GF16||=GH25/GH16||=GJ25/GJ16
